@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-13 14:04:45
+ * @version $Id$
+ */
+.ui-box1 {
+ 	width: 284px;
+ 	height: 190px;
+ 	padding: 5px;
+ 	border: 1px solid black;
+ 	background-color: white;
+ 	padding: 20px;
+ 	display: flex;
+ 	flex-wrap: wrap;
+	align-content: flex-start;
+}
+.ui-inbox {
+ 	width: 50px;
+ 	height: 50px;
+ 	background-color: white;
+ 	padding: 2px;
+}
+.img {
+	width: 45px;
+	height: 45px;
+	display: block;
+}
+.show {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+	width: 126px;
+	height: 126px;
+}
+.imgbackground {
+	position: absolute;
+	top: 30px;
+	left: 70px;
+	width: 190px;
+	height: 180px;
+	background-color: rgb(255,255,255);
+	border: 1px solid black;
+}
+
+.ui-head {
+	border-bottom: none;
+	border-collapse:collapse;
+	position: absolute;
+	top: 300px;
+}
+
+.ui-head td {
+	width: 50px;
+	height: 25px;
+	border: 1px solid black;
+}
+
+.ui-content {
+	width: 275px;
+	height: 150px;
+	border: 1px solid black;
+	position: absolute;
+	top: 328px;
+	font-size: 80px;
+	font-weight: normal;
+	color: rgb(128,128,128);
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ui-box2 {
+	position: absolute;
+	top: 600px;
+	border: 1px solid black;
+	width: 290px;
+	padding-top: 6px;
+}
+
+.ui-ul {
+	list-style: none;
+	padding-left: 1px;
+}
+
+.ui-li-table {
+	border: 1px solid black;
+    margin: 10px;
+    border-collapse:collapse;
+}
+
+.ui-li-table td {
+	border-right: 1px solid black;
+}
+
+.ui-li-table-order {
+	text-align: center;
+	width: 30px;
+}
+
+.ui-li-table-content {
+	width: 190px;
+}
+
+.ui-li-table-del {
+	width: 55px;
+	padding-left: 3px;
+}
+
+.add {
+	width: 90px;
+	height: 25px;
+	border: 1px solid black;
+	background-color: rgb(51,153,102);
+	text-align: center;
+	color: white;
+	margin-top: 25px;
+	margin-right: 11px;
+	margin-bottom: 11px;
+	float: right;
+}
