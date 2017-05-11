@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/ex09.css">
+</head>
+<body>
+    <div id="myMap"></div>
+    <div id="show">
+        <div id="option">
+            <div class="ui-search">
+                <div class="ui-search-title">线路查询</div>
+                <div class="ui-search-start">起点：杭师大仓前校区</div>
+                <div class="ui-search-end">
+                终点： <input type="text" id="end"></div>
+                <select id="way">
+                    <option value="0">最少时间</option>
+                    <option value="1">最少换乘</option>
+                    <option value="2">最少步行</option>
+                    <option value="3">不乘地铁</option>
+                </select>
+                <button id="search">查询</button>
+            </div>
+            <div class="ui-select">
+                <div id="lake"><a href="#">西湖附近宾馆</a></div>
+                <div id="hznu"><a href="#">杭师大仓前校区</a></div>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>
+<script src="https://api.map.baidu.com/api?v=2.0&ak=z56qEwHGOBIp46ah6rGTdG9MskcbciHt
+" type="text/javascript"></script>
+<script src="lib/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/ex09.js"></script>
+</body>
+</html>
